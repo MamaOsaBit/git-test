@@ -1,0 +1,65 @@
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 40px 40px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img {
+    width: 90%;
+    border-radius: 10px;
+    
+}
+.container-img img {
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title{
+    color: hsl(218, 44%, 22%);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p .description {
+    color: hsl(216, 15%, 51%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.description {
+    color: hsl(216, 15%, 48%);
+    font-size: 16px;
+    font-weight: 400;
+}
